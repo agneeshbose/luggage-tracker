@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  background-attachment: fixed;
+  background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+  background-size: 100% 100%;
+}
+
+/* custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* No background */
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #ca4574;
+  border-radius: 6px;
+}
